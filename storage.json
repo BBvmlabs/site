@@ -1,0 +1,33 @@
+[
+    {
+        "name": "SonicSnap",
+        "slogan": "High-Fidelity Audio, Zero Connectivity.",
+        "brand": "SonicSnap",
+        "desc": "SonicSnap is a local-first music engine focusing on low-latency FFT analysis and metadata sandboxing.",
+        "tags": ["Flutter", "Dart", "C++ FFT", "Offline-First", "Isolates"],
+        "code": "https://github.com/BBvmlabs/sonicsnap-music.git",
+        "url": "https://sonicsnap.bbvmlabs.top",
+        "logo": "assets/sonicsnap.png"
+    },
+    {
+        "name": "PACCS's Calculator",
+        "slogan": "Precision Lending, Made Simple.",
+        "brand": "PACCS's Calculator",
+        "desc": "Loan Calculator is a specialized financial tool designed for the rural and agricultural sector, providing robust modeling.",
+        "tags": ["Flutter", "FastAPI", "PostgreSQL", "Android", "Windows"],
+        "code": "https://github.com/BBvmlabs/Paccs-Calculator.git",
+        "url": "https://paccs.bbvmlabs.top",
+        "logo": "assets/paccs.png"
+    },
+    {
+        "name": "Wireless Debug",
+        "slogan": "No More Tangles, Just Wireless",
+        "brand": "Wireless Debug",
+        "desc": "A Visual Studio Code extension to simplify wireless debugging of Android devices using ADB pairing and connecting commands.",
+        "tags": ["VS Code Extension", "Android Debugger", "Wireless"],
+        "code": "https://github.com/BBvmlabs/adb-wireless-debugger.git",
+        "url": "https://wireless-debug.bbvmlabs.top",
+        "logo": "assets/wireless_debug.png"
+    }
+
+]

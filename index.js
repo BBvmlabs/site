@@ -82,5 +82,3 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     }
 });
-
-// No switchView function needed as navigation is now page-based.

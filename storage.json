@@ -7,7 +7,7 @@
         "tags": ["Flutter", "Dart", "C++ FFT", "Offline-First", "Isolates"],
         "code": "https://github.com/BBvmlabs/sonicsnap-music.git",
         "url": "https://sonicsnap.bbvmlabs.top",
-        "logo": "assets/sonicsnap.png"
+        "logo": "assets/images/sonicsnap.png"
     },
     {
         "name": "PACCS's Calculator",
@@ -17,7 +17,7 @@
         "tags": ["Flutter", "FastAPI", "PostgreSQL", "Android", "Windows"],
         "code": "https://github.com/BBvmlabs/Paccs-Calculator.git",
         "url": "https://paccs.bbvmlabs.top",
-        "logo": "assets/paccs.png"
+        "logo": "assets/images/paccs.png"
     },
     {
         "name": "Wireless Debug",
@@ -27,7 +27,7 @@
         "tags": ["VS Code Extension", "Android Debugger", "Wireless"],
         "code": "https://github.com/BBvmlabs/adb-wireless-debugger.git",
         "url": "https://wireless-debug.bbvmlabs.top",
-        "logo": "assets/wireless_debug.png"
+        "logo": "assets/images/wireless_debug.png"
     }
 
 ]

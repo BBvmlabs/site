@@ -28,6 +28,16 @@
         "code": "https://github.com/BBvmlabs/adb-wireless-debugger.git",
         "url": "https://wireless-debug.bbvmlabs.top",
         "logo": "assets/images/wireless_debug.png"
+    },
+    {
+        "name": "LayrDoc",
+        "slogan": "Make Documenting Effortless.",
+        "brand": "LayrDoc",
+        "desc": "LayrDoc is a simple and user-friendly tool for creating documentation for your projects, Powered with AI.",
+        "tags": ["CLI", "AI", "VS Code Extension", "Android", "Windows"],
+        "code": "https://github.com/BBvmlabs/LayrDoc.git",
+        "url": "https://layrdoc.bbvmlabs.top",
+        "logo": "assets/images/layrdoc.png"
     }
 
 ]

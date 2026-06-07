@@ -20,9 +20,9 @@
         "logo": "assets/images/paccs.png"
     },
     {
-        "name": "Wireless Debug",
+        "name": "Wireless Debugger",
         "slogan": "No More Tangles, Just Wireless",
-        "brand": "Wireless Debug",
+        "brand": "Wireless Debugger",
         "desc": "A Visual Studio Code extension to simplify wireless debugging of Android devices using ADB pairing and connecting commands.",
         "tags": ["VS Code Extension", "Android Debugger", "Wireless"],
         "code": "https://github.com/BBvmlabs/adb-wireless-debugger.git",

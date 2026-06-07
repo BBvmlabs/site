@@ -3,27 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml " href="assets/svg/bbvmlabs.svg"/>
+    <link rel="icon" type="image/svg+xml" href="assets/svg/bbvmlabs.svg"/>
     <title>BBVMLabs | High-Performance Engineering</title>
+    <!-- Google Fonts for sleek typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="splash-screen">
-    <div id="greeting-text">Hello</div>
+<!-- Animated background orbs -->
+<div class="background-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
 </div>
 
 <nav><a href="/">BBVMLabs // Product Studio</a></nav>
 
-<main>
-    <!-- Overview Section -->
-    <section id="view-overview" class="view">
-        <div> <img src="assets/images/logo.png" alt="BBVMLabs Logo" class="logo"> </div>
-        <h1>Engineering Resilient Digital Systems.</h1>
-        <p class="description">BBVMLabs is a specialized multi-disciplinary engineering studio focusing on optimized cross-platform native software applications, offline-first multimedia systems, and precise algorithmic processing engines.</p>
-        <button class="explore-btn" onclick="window.location.href = 'project.html';">Explore Projects</button>
+<main class="bento-container">
+    <!-- Hero / Intro Cell -->
+    <section class="bento-cell bento-hero">
+        <img src="assets/images/logo.png" alt="BBVMLabs Logo" class="bento-logo">
+        <div class="hero-text-content">
+            <h1>Engineering Resilient<br>Digital Systems.</h1>
+            <button class="explore-btn" onclick="document.getElementById('bento-projects').scrollIntoView({behavior: 'smooth'});">
+                Explore Projects
+            </button>
+        </div>
     </section>
+
+    <!-- About Cell -->
+    <section class="bento-cell bento-about">
+        <h3>About the Studio</h3>
+        <p>BBVMLabs is a specialized multi-disciplinary engineering studio focusing on optimized cross-platform native software applications, offline-first multimedia systems, and precise algorithmic processing engines.</p>
+    </section>
+
+    <!-- Stats / Capabilities Cells -->
+    <section class="bento-cell bento-stat">
+        <div class="stat-icon">⚡</div>
+        <h4>High Performance</h4>
+        <p>Native speed applications.</p>
+    </section>
+
+    <section class="bento-cell bento-stat">
+        <div class="stat-icon">🔋</div>
+        <h4>Offline-First</h4>
+        <p>Reliable architecture.</p>
+    </section>
+
+    <div class="bento-header" id="bento-projects">
+        <h2>Our Engineered Products</h2>
+    </div>
+
+    <!-- The Projects Grid container for JS injection -->
+    <div id="view-projects-grid" class="bento-projects-grid"></div>
+
 </main>
+
+<footer>
+    <div class="footer-links">
+        <a href="https://github.com/BBvmlabs">GitHub</a>
+        <a href="https://www.linkedin.com/in/badhrins">LinkedIn</a>
+        <a href="https://portfolio.bbvmlabs.top">Portfolio</a>
+    </div>
+    <p>&copy; <span id="currentYear"></span> BBVMLabs. Engineering excellence in production.</p>
+    <script>
+      document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+    </script> 
+</footer>
 
 <script src="index.js" defer></script>
 </body>

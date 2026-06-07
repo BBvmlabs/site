@@ -224,7 +224,9 @@ nav a:hover { color: var(--accent-cyan); }
     box-shadow: 0 10px 30px rgba(0,0,0,0.5), inset 0 0 20px rgba(0, 255, 204, 0.1);
 }
 .card-top { margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem; }
-.card-logo { width: 48px; height: 48px; border-radius: 12px; }
+.card-logo { width: 48px; height: 48px; border-radius: 12px; flex-shrink: 0; }
+.card-title-group { display: flex; flex-direction: column; }
+.card-name { font-size: 0.8rem; color: var(--accent-cyan); text-transform: uppercase; letter-spacing: 0.05em; font-family: var(--font-mono); margin-bottom: 0.25rem; }
 .card-top h2 { font-size: 1.3rem; color: #fff; line-height: 1.2; font-family: var(--font-heading); }
 .card-desc { color: var(--text-dim); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; flex-grow: 1; }
 .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.5rem; }

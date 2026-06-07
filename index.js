@@ -14,7 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <article class="project-card">
                         <div class="card-top">
                             <img src="${p.logo}" alt="${p.brand} logo" class="card-logo">
-                            <h2>${p.slogan}</h2>
+                            <div class="card-title-group">
+                                <h3 class="card-name">${p.name}</h3>
+                                <h2>${p.slogan}</h2>
+                            </div>
                         </div>
                         <p class="card-desc">${p.desc}</p>
                         <div class="tag-row">

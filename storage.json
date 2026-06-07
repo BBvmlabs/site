@@ -26,7 +26,7 @@
         "desc": "A Visual Studio Code extension to simplify wireless debugging of Android devices using ADB pairing and connecting commands.",
         "tags": ["VS Code Extension", "Android Debugger", "Wireless"],
         "code": "https://github.com/BBvmlabs/adb-wireless-debugger.git",
-        "url": "https://wireless-debug.bbvmlabs.top",
+        "url": "https://wireless-debugger.bbvmlabs.top",
         "logo": "assets/images/wireless_debug.png"
     },
     {
